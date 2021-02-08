@@ -1,0 +1,32 @@
+.addalbum {
+  text-align: center;
+  margin: 2em;
+  padding: 1em;
+}
+
+.entrees {
+  background-color: var(--home-background);
+  color: var(--homeText-color);
+  border-radius: 5px;
+  padding: 2em;
+}
+
+.textfields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.input {
+  background-color: rgba(245, 245, 245, 0.788);
+  margin: 0.5em;
+  border-radius: 3px;
+}
+
+@media screen and (min-width: 481px) {
+  .textfields {
+    flex-direction: row;
+  }
+}

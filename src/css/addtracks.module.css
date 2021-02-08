@@ -1,0 +1,19 @@
+.input {
+  background-color: rgba(245, 245, 245, 0.788);
+  margin: 0.5em;
+  border-radius: 3px;
+}
+
+.textfields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 481px) {
+  .textfields {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,19 @@
+.card {
+  background-color: var(--home-background);
+  text-align: center;
+  margin: 2em;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.image {
+  border: 2px solid #d8c99d;
+  max-width: 250px;
+}
+
+@media screen and (min-width: 481px) {
+  .card {
+    max-width: 45vw;
+    align-items: center;
+  }
+}

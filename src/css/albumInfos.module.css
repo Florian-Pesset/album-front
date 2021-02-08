@@ -1,0 +1,33 @@
+.main {
+  text-align: center;
+  margin: 1em;
+  padding: 1em;
+  color: var(--homeText-color);
+}
+
+.image {
+  border: 2px solid #d8c99d;
+  max-width: 250px;
+}
+
+.infosAlbum,
+.infosTracks {
+  background-color: var(--home-background);
+  margin: 0.5em;
+  padding: 1em;
+  text-align: left;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 481px) {
+  .infosAlbum,
+  .infosTracks {
+    width: 40vw;
+  }
+
+  .albuminfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
