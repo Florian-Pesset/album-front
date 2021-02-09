@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Album manager",
+  "name": "Album manager, add your favorite album",
   "icons": [
     {
       "src": "favicon.ico",
